@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Muco">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/hy"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image">
+    </ImageView>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/classify"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_round"
+            android:fontFamily="@font/bungee_inline"
+            android:text="PREDICT"
+            android:layout_toLeftOf="@id/bottom"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FDFBFB"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/bt_open"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_round"
+            android:fontFamily="@font/bungee_inline"
+            android:text="CAM"
+            android:layout_toLeftOf="@id/bottom"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FDFBFB"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/output1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#A6555353"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#FBFBFB">
+
+        <TextView
+            android:id="@+id/classifytext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="STATUS :"
+            android:textColor="#FAF9F9"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/output2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#A6555353"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#FBFBFB">
+
+        <TextView
+            android:id="@+id/link1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Appointment Date :"
+            android:textColor="#FAF9F9"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/output3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#A6555353"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#FBFBFB">
+
+        <TextView
+            android:id="@+id/link2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Appointment Date :"
+            android:textColor="#FAF9F9"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+</LinearLayout>
