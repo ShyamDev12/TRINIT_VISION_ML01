@@ -24,4 +24,6 @@ Result: Also, we have attached the drive link for Demo Video and Module Video
 ## [Demos Link !](https://drive.google.com/drive/folders/1PtkP9kQWbQTNlhNtmSNO4QzZ7TZ331mt?usp=sharing)
 Conclusion:
 Here by our solution the problem statement could be solved
-![](BOT.gif)![](parameters.gif)
+![](BOT.gif)!
+[](IOT.gif)
+[](parameters.gif)
