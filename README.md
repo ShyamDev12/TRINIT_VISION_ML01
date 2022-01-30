@@ -6,10 +6,10 @@ During this pandemic, the healthcare industry has developed rapidly to combat co
 Proposed Solution:
 Our proposed solution was a mobile application integrated with IoT.
 Our solution consists of various modules like,
-•	Chatbot (for queries regarding Covid 19)
-•	Scanner (for scanning X-ray and CT images)
-•	Near-by (for nearby vaccine centers)
-•	Checkup (for monitoring parameters)
+## •	Chatbot (for queries regarding Covid 19)
+## •	Scanner (for scanning X-ray and CT images)
+## •	Near-by (for nearby vaccine centers)
+## •	Checkup (for monitoring parameters)
 Work Done:
 1.	Chatbot – We have used Dialogflow for creating Chatbot Intents and it is integrated with RapidAPI for retriving on Covid Statistical datas, it can also provide government schemes , live news related to covid , Map wise statistics and alos country specific and also integrated with videos and pictures ,there by can solve any query regards covid19.
 
@@ -21,6 +21,6 @@ Work Done:
 
 We have completed all the above-mentioned Modules
 Result: Also, we have attached the drive link for Demo Video and Module Video
-[Demos Link !](https://drive.google.com/drive/folders/1PtkP9kQWbQTNlhNtmSNO4QzZ7TZ331mt?usp=sharing)
+## [Demos Link !](https://drive.google.com/drive/folders/1PtkP9kQWbQTNlhNtmSNO4QzZ7TZ331mt?usp=sharing)
 Conclusion:
 Here by our solution the problem statement could be solved
